@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sheet.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="section1">
+
+            <h2 class="game--motivate" id= "change--rule">Change the Rules</h2>
+
+            <div class="row">
+
+                <div class="line">
+
+                    <label for="replace1" class="inline"> Replace option text-></label>
+                    <input class="text--replace1 text" id="replace1" type="text" value="rock" maxlength= "9">
+
+                </div>
+                
+                <div class="line">
+
+                    <label for="file1" class="inline">UPLOAD IMAGE -></label>
+                    <input class="img--replace1 photo--upload" id="file1" type="file" accept="image/jpg ,image/png">
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="line">
+
+                    <label for="replace2" class="inline"> Replace option text-></label>
+                    <input class="text--replace2 text" id="replace2" type="text" value="paper" maxlength= "9">
+
+                </div>
+
+                <div class="line">
+
+                    <label for="file2" class="inline">UPLOAD IMAGE -></label>
+                    <input class="img--replace2 photo--upload" id="file2" type="file" accept="image/jpg ,image/png">
+                
+                </div>
+ 
+
+            </div>
+
+            <div class="row">
+
+                <div class="line">
+
+                    <label for="replace3" class="inline"> Replace option text-></label>
+                    <input class="text--replace3 text" id="replace3" type="text" value="scissors" maxlength= "9">
+
+                </div>
+
+                <div class="line">
+
+                    <label for="file3" class="inline">UPLOAD IMAGE -></label>
+                    <input class="img--replace3 photo--upload" id="file3" type="file" accept="image/jpg ,image/png">
+
+                </div>
+
+            </div>
+
+            <button id="get--value" class="btn-lets-play"> let's play >>> </button>
+            <button id="rest" class="btn-lets-play"> Default ✊ ✌️ ✋</button>
+
+        </div>
+
+
+        <div class="section2">
+
+            <h2 class="game--name">rock paper scissors</h2>
+    
+            <h3 class="game--motivate">Can you beat me?</h3>
+    
+            <div class="section--show">
+
+                <div class="sect section--player">
+
+                    <h3 class="label label--player">You</h3>
+
+                    <div class="player--img">
+
+                        <img class="image--play" alt="Game play" src="img/guess.png">
+
+                    </div>
+
+                </div>
+
+                <button class="btn--again">Play Again</button>
+
+                <div class="sect section--computer">
+
+                    <h3 class="label label--computer">Computer</h3>
+
+                    <div class="computer--img">
+
+                        <img class="question" alt="question" src="img/question.png">
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <p class="result--show">Choose one!</p>
+
+            <div class="section--button">
+
+                <div class="img--label">
+
+                    <button class="btn active" id="first">
+                        <img class="rock" alt="rock" src="img/rock.png">
+                    </button>
+                    
+                    <button class="name--choice choice--rock active" id="first">rock</button>
+            
+                </div>
+
+                <div class="img--label">
+
+                    <button class="btn active" id="second" >
+                        <img class="paper" alt="paper" src="img/paper.png">
+                    </button>
+
+                    <button class="name--choice choice--paper active" id="second">paper</button>
+
+                </div>
+
+                <div class="img--label">
+
+                    <button class="btn active" id="third" >
+                        <img class="scissors" alt="scissors" src="img/scissors.png">
+                    </button>
+
+                    <button class="name--choice choice--scissors active" id="third">scissors</button>
+
+                </div>
+       
+            </div>
+    
+        </div> 
+
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
