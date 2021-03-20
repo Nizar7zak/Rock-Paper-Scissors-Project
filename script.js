@@ -1,7 +1,7 @@
 const arrResult = ["Draw! You seem to be a smart competitor",
 "Congratulations, you beat me", "Hahaha i defeated you!"];
 const arrOption = ["rock", "paper", "scissors"];
-
+//  
 const buttons = document.querySelectorAll(".btn");
 const labels = document.querySelectorAll(".name--choice");
 
