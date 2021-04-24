@@ -61,7 +61,7 @@ btnRulesChange.addEventListener("click", () => {
     labelOfPaper.textContent = arrOption[1];
     labelOfScissors.textContent = arrOption[2];
 
-    title.textContent = `${arrOption[0]}${arrOption[1]} ${arrOption[2]}`;
+    title.textContent = `${arrOption[0]} ${arrOption[1]} ${arrOption[2]}`;
 
     imgRock.src = (img1.files && img1.files[0]) ? URL.createObjectURL(img1.files[0]) : rock;
     imgPaper.src = (img2.files && img2.files[0]) ? URL.createObjectURL(img2.files[0]) : paper;
